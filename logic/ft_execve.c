@@ -103,7 +103,9 @@ void	ft_execve(t_bin *bin, char *execve_str, char **argv, int status)
 			g_sig.exit_status = 130;
 		else if (status == 3)
 			g_sig.exit_status = 131;
-		else if (status != 0 && status != 256)
+		else if (status != 0)
 			g_sig.exit_status = status >> 8;
+		else if (status == 5)
+			g_sig.exit_status = 1;
 	}
 }
