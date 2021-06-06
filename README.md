@@ -1,6 +1,8 @@
 # minishell
 Autors: @egums, @tsaiyan
 
+<img width="207" alt="Screen Shot 2021-06-06 at 4 36 07 PM" src="https://user-images.githubusercontent.com/69805852/120926534-fc70e680-c6e5-11eb-9345-c94a7aa609f7.png">
+
 For compile programm run:
 ```shell
 make
@@ -14,3 +16,7 @@ the project supports some of the functionality of the ***bash***, such as:
   - Bash termcap navigations.
   - Signals ctal + C, ctrl + \, ctrl + d.
   - And more...
+
+
+
+[TASK DICRIPTION](https://github.com/Rukopet/subjects/blob/main/en.subject_minishell.pdf)
